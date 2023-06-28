@@ -80,7 +80,7 @@ button:hover {
 }
 
 button:active {
-    transform: scale(1);
+    transform: scale(.09);
     cursor: pointer;
     opacity: 1;
 }
@@ -216,16 +216,9 @@ footer {
     }
 }
 
-@media (max-width: 704px) {
+@media (max-width: 700px) {
 
     button {
-        margin-top: 230px;
-    }
-}
-
-@media (max-width: 375px) {
-
-    button {
-        margin-top: 230px;
+        margin-top: 280px;
     }
 }
