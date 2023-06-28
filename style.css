@@ -179,10 +179,6 @@ footer {
         flex-direction: column;
     }
 
-    button {
-        margin-top: 245px;
-    }
-
     .textarea {
         font: inherit;
     }
@@ -216,9 +212,17 @@ footer {
     }
 }
 
-@media (max-width: 700px) {
+
+@media (min-width: 350px) {
 
     button {
-        margin-top: 240px;
+        margin-top: 235px;
+    }
+}
+
+@media (min-width: 750px) {
+
+    button {
+        margin-top: 250px;
     }
 }
