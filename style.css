@@ -212,11 +212,27 @@ footer {
     }
 }
 
-
-@media (min-width: 310px) {
+@media (min-width: 350px) {
 
     button {
         margin-top: 235px;
+        transform: scale(0.8);
+    }
+
+    button:hover {
+        transform: scale(0.9);
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    button:active {
+        transform: scale(0.8);
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .clear {
+        margin-left: 105px;
     }
 }
 
@@ -224,5 +240,21 @@ footer {
 
     button {
         margin-top: 250px;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    button:active {
+        transform: scale(0.9);
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .clear {
+        margin-left: 105px;
     }
 }
